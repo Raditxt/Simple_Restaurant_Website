@@ -3,12 +3,19 @@
     --main-color: #b68d40;
     --secondary-color: #f4ebd0;
     --asset-color: #122620;
-    
+    --finishing-color: #d6ad60;
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: ;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+html{
+    scroll-behavior: smooth;
 }
